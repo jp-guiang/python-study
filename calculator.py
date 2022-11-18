@@ -16,3 +16,6 @@ print(c)
 
 d=1000
 print(f'{d:,}') # use :, to separate numbers with 'z'
+
+e=.066666666
+print(f'{e:.2f}') # .2f specify decimal places
