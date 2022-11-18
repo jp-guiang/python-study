@@ -1,3 +1,12 @@
+def main():
+  x=int(input('x: '))
+  print(f'x^2 is {square(x)}')
+
+def square(n):
+  return n*n
+
+main()
+
 x=int(input('What is x? '))
 y=int(input('What is y? '))
 
