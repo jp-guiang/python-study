@@ -1,3 +1,10 @@
+def main():
+  #assign input to a variable
+  name=input("What's your name? ").strip().title() # can add string methods to input straight away
+
+  hello()
+  hello(name)
+
 def hello(to="world world"): # assign default value when defining function
 
 
@@ -27,10 +34,6 @@ def hello(to="world world"): # assign default value when defining function
 
 print('We are now going to run hello()')
 
+main()
 
-#assign input to a variable
-name=input("What's your name? ").strip().title() # can add string methods to input straight away
-
-hello()
-hello(name)
 
