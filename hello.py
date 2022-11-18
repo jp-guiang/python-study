@@ -21,3 +21,8 @@ print(f'Capitalize all letters with "upper()": {name.upper()}')
 
 # chain string methods
 print(f'remove white spaces first then capitalize: {stripVar.strip().upper()}')
+
+# Split user name from first name and last name
+first, last= name.split(" ")
+print(f'First name: {first}')
+print(f'Last name: {last}')
