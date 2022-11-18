@@ -1,5 +1,5 @@
-x=input('What is x? ')
-y=input('What is y? ')
-z= int(x)+int(y) # Use int to change strings to intergers
+x=int(input('What is x? '))
+y=int(input('What is y? '))
 
-print(z)
+
+print(x+y)
