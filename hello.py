@@ -1,9 +1,7 @@
 print('Hello world')
 
 #assign input to a variable
-name=input("What's your name? ")
-
-
+name=input("What's your name? ").strip().title() # can add string methods to input straight away
 
 #print with variable
 print("Hello", name)
