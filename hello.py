@@ -13,5 +13,13 @@ print(f'Hello, {name}, but in f-string')
 
 # remove whitespace from variable
 stripVar="     test      "
-stripVar=stripVar.strip()
-print(f'This variable should have no extra white space: {stripVar}')
+print(f'{stripVar}')
+print(f'Remove white space with "strip()": {stripVar.strip()}')
+
+# capitalize first letter
+print(f'Capitalize first letter with "capitalize()" {name.capitalize()}')
+
+print(f'Capitalize all letters with "upper()": {name.upper()}')
+
+# chain string methods
+print(f'remove white spaces first then capitalize: {stripVar.strip().upper()}')
